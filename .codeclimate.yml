@@ -1,0 +1,7 @@
+languages:
+   Ruby: true
+   JavaScript: true
+   Python: true
+   PHP: true
+exclude_paths:
+- "jquery-2.1.4.min"
