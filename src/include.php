@@ -467,9 +467,6 @@ function ia ($pp, $pq, $objp = array(), $objq = array())
 			$diff = alea(0.9, 1.1) * $p->stats["PV"] / (0.0001 + $p->degats_finaux) - alea(0.9, 1.1) * $q->stats["PV"] / (0.0001 + $q->degats_finaux);
 			//$diff *= 1000000000 / pow($p_off * $p_off + $q_off * $q_off + 0.0001, 2);
 			
-			$p_refl = $p_off_post - $p_off_pre;
-			$q_refl = $q_off_post - $q_off_pre;
-			
 			$resultats[$obj_p->nom][$obj_q->nom] = $diff;
 		}
 	}

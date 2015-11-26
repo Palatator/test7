@@ -4,4 +4,4 @@ languages:
    Python: true
    PHP: true
 exclude_paths:
-- "jquery-2.1.4.min"
+- "jquery-2.1.4.min.js"
